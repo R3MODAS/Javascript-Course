@@ -1,0 +1,1 @@
+// How the data is stored in the memory and accessed on basis of that, data is categories into two parts
