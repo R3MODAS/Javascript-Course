@@ -34,10 +34,31 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello world !");
+    console.log("Hello world !")
 }
-console.log(typeof myFunction);
-console.log(typeof number)
+// console.log(typeof myFunction)
+// console.log(typeof number)
 
 //! typeof null -> object 
 //! typeof function -> function object
+
+
+// ****************** Memory in Javascript ****************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let firstName = "Sharadindu"
+let anotherName = firstName
+anotherName = "Remo"
+
+// console.log(firstName, anotherName)
+
+let userOne = {
+    name : "Remo",
+    age : 23,
+    email : "remo@gmail.com"
+}
+
+let userTwo = userOne
+userTwo.name = "Rimo"
+// console.log(userOne, userTwo)
