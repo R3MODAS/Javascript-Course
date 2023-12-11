@@ -1,11 +1,11 @@
-const myArr = [0,1,2,3,4,5]
+const myArr = [0, 1, 2, 3, 4, 5]
 
 //! Shallow copy and deep copy (Interview)
 // Shallow copy -> It is the copy of an object who shares the same reference as the original object.
 // Deep copy -> It is the copy of an object who do not share the same reference as the original object
 
 const myHeroes = ["Superman", "Batman", "Spiderman"]
-const myArr2 = new Array(1,2,3,4)
+const myArr2 = new Array(1, 2, 3, 4)
 
 // We get prototype access in array
 // myArr.push(6)
@@ -21,4 +21,15 @@ const myArr2 = new Array(1,2,3,4)
 // console.log(newArr)
 // console.log(myArr)
 
-//! slice, splice 
+//! slice, splice
+console.log("A :", myArr);
+
+const myn1 = myArr.slice(1, 3);
+console.log("Sliced Arr :", myn1);
+
+console.log("B :", myArr);
+
+const myn2 = myArr.splice(1,3);
+console.log("Spliced Arr : ", myn2);
+
+console.log("C :", myArr);
