@@ -1,8 +1,8 @@
 const myArr = [0, 1, 2, 3, 4, 5]
 
 //! Shallow copy and deep copy (Interview)
-// Shallow copy -> It is the copy of an object who shares the same reference as the original object.
-// Deep copy -> It is the copy of an object who do not share the same reference as the original object
+// Shallow copy -> It is the copy of an object who shares the same reference as the original object. (Non Primitive)
+// Deep copy -> It is the copy of an object who do not share the same reference as the original object (Primitive)
 
 const myHeroes = ["Superman", "Batman", "Spiderman"]
 const myArr2 = new Array(1, 2, 3, 4)
