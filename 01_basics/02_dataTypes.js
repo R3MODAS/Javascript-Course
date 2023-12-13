@@ -11,7 +11,7 @@ let isLoggedIn = true
 
 // NNSSBBU
 // number => 2 to power 53
-// null => standalon value (Empty)
+// null => standalone value (Empty)
 // string => ""
 // symbol => unique
 // bigInt =>
