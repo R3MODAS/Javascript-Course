@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to DOM</title>
+    <style>
+        .bg-black{
+            background-color: #1a1a1a;
+            color: white;
+        }
+    </style>
 </head>
-<body>
-    <div class="bg-black">
-        <h1 class="heading">Introduction to DOM in Chai aur code</h1>
+<body class="bg-black">
+    <div>
+        <h1 class="heading" id="title">Introduction to DOM in Chai aur code <span style="display: none;">This is a text</span></h1>
         <p>Lorem ipsum dolor sit amet.</p>
+
+        <ul>
+            <li class="list-item">Eat</li>
+            <li class="list-item">Sleep</li>
+            <li class="list-item">Code</li>
+            <li class="list-item">Gym</li>
+            <li class="list-item">Repeat</li>
+        </ul>
     </div>
 
     <script src="01_dom.js"></script>
