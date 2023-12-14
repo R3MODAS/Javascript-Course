@@ -1,5 +1,5 @@
 //! falsy values
-// false, 0, -0, BigInt(0n), null, undefined, NaN 
+// false, "", 0, -0, BigInt(0n), null, undefined, NaN 
 
 //! truthy values
 // [], "0", "false", " ", {}, function(){}
@@ -17,9 +17,9 @@ const obj = {}
 // }
 
 //! Interesting 
-// false == 0 
-// false == ""
-// 0 == ""
+// console.log(false == 0)
+// console.log(false == "")
+// console.log(0 == "")
 
 // Nullish Coalescing Operator (??)
 // The Nullish Coalescing Operator (???) is a logical operator that returns the right operand if the left operand is null or undefined; otherwise, it returns the left operand.
