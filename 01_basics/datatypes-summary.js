@@ -18,6 +18,8 @@ const number = BigInt(230435356);
 // console.log(id, anotherId)
 // console.log(id === anotherId)
 
+//! Symbol are always unique values and even if we pass the same values in Symbol, they will still not be equal/same. 
+
 // Non primitive Datatype (call by reference)
 // Here the original value is provided as we have the access to the memory location directly
 
