@@ -1,7 +1,0 @@
-Code has some meaning and syntax or structure and has some extension
-The diff between .js or any other programming extension and .txt file is that the file which can be executed inside any software (compiler/interpreter)
-
-The software was attached with browser so that's why he had to make index.html and add script.js then run our javascript code inside browser and now the software is seperately used everywhere even outside the browser in backend, mobile apps, desktop apps.
-
-Every language has their environment (to code on our machine easily) so javascript also has its own environment and there are lots of environment for js such as nodejs, deno, bun, etc.
-
