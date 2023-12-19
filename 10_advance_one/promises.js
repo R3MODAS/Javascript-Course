@@ -108,15 +108,15 @@ getAllUsers()
 fetch("https://jsonplaceholder.typicode.com/users").then((response) => {
     return response.json();
 }).then((data) => {
-    console.log(data)
+    console.log(data);
 }).catch((err) => {
-    console.log(err)
+    console.log(err);
 })
 
 fetch("https://api.github.com/users/R3MODAS").then((response) => {
     return response.json();
 }).then((data) => {
-    console.log(data)
+    console.log(data);
 }).catch((err) => {
-    console.log(err)
+    console.log(err);
 })
