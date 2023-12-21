@@ -1,8 +1,8 @@
 /*
- Promise object is basically an object which receives a task in the queue and gives a response (may be success or failure) but it will give response and the response won't be instantly it may take some time (asynchronous operation) but it will definitely provide you the response
+ Promise object is basically an object which receives a task in the queue and gives a response (may be success or failure) but it will give response and it won't be done instantly it may take some time (asynchronous operation) but it will definitely provide you the response and using then,catch,finally we basically consume the promise that we create
 
 Eg : Access to the file from the system
-     Requesting DB from the data
+     Requesting data from the DB
      Network calls
 */
 
