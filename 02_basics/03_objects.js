@@ -1,7 +1,7 @@
 //! We can declare objects using two types : Literal and Constructor
 
-// singleton -> The object we make using constructor that is a singleton object (only one type of object) but using different way other than constructor, we can make multiple instances of object. 
-// Literal -> No singleton || Constructor -> singleton
+// singleton -> Object literal (Change made to the object will be affected globally)
+// non singleton -> constructor (Multiple instances of object can be done and the change made to one instance will not affect the other)
 
 //! Object literals
 const mySym = Symbol("symbolKey");

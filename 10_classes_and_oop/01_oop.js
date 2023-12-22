@@ -39,11 +39,12 @@ const userOne = new User("Remo", 12, true)
 const userTwo = new User("Sharadindu", 11, false)
 // console.log(userOne, userTwo)
 
-/* What happens when new keyword is used ?
+/* 
+Q. What happens when new keyword is used ?
 - empty Object is created (this)
 - constructor function is called (packs the arguments and all and gives it to us)
 - the values are injected from the arguments and all to the "this" object
 - returns the this object automatically
 */
 
-console.log(userOne)
+console.log(userOne.constructor) // Reference of its own function
