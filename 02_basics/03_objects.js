@@ -1,6 +1,6 @@
 //! We can declare objects using two types : Literal and Constructor
 
-// singleton -> Object literal (Change made to the object will be affected globally)
+// singleton -> Object literal (We can create only one instance of a object and that instance can be accessed globally.)
 // non singleton -> constructor (Multiple instances of object can be done and the change made to one instance will not affect the other)
 
 //! Object literals
